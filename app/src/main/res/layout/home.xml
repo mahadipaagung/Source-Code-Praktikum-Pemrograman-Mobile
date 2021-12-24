@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_temple"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Data Iuran"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="@color/LightCyan"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="30dp">
+    </TextView>
+
+
+    <Button
+        android:elevation="5dp"
+        android:shadowRadius="1.5"
+        android:id="@+id/btndaftar"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="215dp"
+        android:backgroundTint="@color/AntiqueWhite"
+        android:text="Register Data Iuran"
+        android:textColor="@color/Black"/>
+
+
+    <Button
+        android:id="@+id/btnlist"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/AntiqueWhite"
+        android:text="List Data Iuran dan Keluarga"
+        android:textColor="@color/Black"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/Black"
+    tools:context=".checkdata">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/button_rounded_hasil">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:padding="15dp"
+                android:text="Hasil Registrasi"
+                android:textColor="@color/Yellow"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="8pt"
+            android:text="Nama Lengkap :"/>
+
+        <TextView
+            android:id="@+id/shownama"
+            android:background="@drawable/box_input"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:textSize="8pt"
+            android:text="Nama Lengkap"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4pt"
+            android:textStyle="bold"
+            android:textSize="8pt"
+            android:text="Alamat :"/>
+
+        <TextView
+            android:id="@+id/showalamat"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@drawable/box_input"
+            android:textSize="8pt"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:text="Alamat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4pt"
+            android:textStyle="bold"
+            android:textSize="8pt"
+            android:text="Jenis Kelamin :"/>
+
+        <TextView
+            android:id="@+id/showjk"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@drawable/box_input"
+            android:textSize="8pt"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="20dp"
+            android:text="Jenis Kelamin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4pt"
+            android:textStyle="bold"
+            android:textSize="8pt"
+            android:text="Jenis Iuran :"/>
+
+        <TextView
+            android:id="@+id/showkategori"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@drawable/box_input"
+            android:textSize="8pt"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="20dp"
+            android:text="Jenis Iuran"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4pt"
+            android:textStyle="bold"
+            android:textSize="8pt"
+            android:text="Jumlah Anggota Keluarga :"/>
+
+        <TextView
+            android:id="@+id/showangkel"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@drawable/box_input"
+            android:textSize="8pt"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:text="Jumlah Anggota Keluarga" />
+
+        <Button
+            android:id="@+id/btn_kembali"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/OrangeRed"
+            android:onClick="Kembali"
+            android:text="Kembali"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="7pt"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+</ScrollView>
+
